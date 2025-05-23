@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- TITLE -->
 <p align="center">
   <img width="100px" src="https://github.com/celo-org/celo-composer/blob/main/images/readme/celo_isotype.svg" align="center" alt="Celo" />
@@ -256,3 +257,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 - [Discord](https://discord.com/invite/celo)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+=======
+# xfini-elite-wallet-v8
+
+>>>>>>> 62ba7cec1c12d3c27f40ac54183a6b759e40af23

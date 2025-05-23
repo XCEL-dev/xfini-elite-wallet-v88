@@ -1,0 +1,5 @@
+[build]
+  base = "packages/react-app"
+  command = "yarn workspace @celo-composer-minipay-template/react-app build"
+  publish = "packages/react-app/build"
+Add netlify.toml for deployment config
