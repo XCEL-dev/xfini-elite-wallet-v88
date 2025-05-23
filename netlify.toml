@@ -1,7 +1,6 @@
 [build]
-  command = "yarn workspace @celo-composer-minipay-template/react-app build"
+  base = "packages/react-app"
   publish = "packages/react-app/build"
-[build]
   command = "yarn workspace @celo-composer-minipay-template/react-app build"
-  publish = "packages/react-app/build"
+
 
