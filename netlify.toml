@@ -1,12 +1,9 @@
 [build]
-  base = "packages/react-app"
-  command = "yarn --cwd packages/react-app build"
-  publish = "packages/react-app/build"
+  command = "cd packages/react-app && yarn install && yarn build"
+  publish = "packages/react-app/out"
 
-  [build.environment]
-    REACT_APP_WALLETCONNECT_PROJECT_ID = "4e7ba1a0f830b146bfa48cf9d190ec54"
-    REACT_APP_CONTRACT_ADDRESS = "23e307f42fc216e98c5c8aa63f7f2f86b2d2bc3"
-    REACT_APP_INFURA_ID = "78b07ac3aa824fbd99f2fda1425bd76b"
-
-
-
+[build.environment]
+  REACT_APP_CONTRACT_ADDRESS = "0xf23e307f42fc216e98c5c8aa63f7f2f86b2d2bc3"
+  REACT_APP_INFURA_ID = "78b07ac3aa824fbd99f2fda1425bd76b"
+  REACT_APP_WALLETCONNECT_PROJECT_ID = "4e7ba1a0f830b146bfa48cf9d190ec54"
+  NODE_VERSION = "16"
