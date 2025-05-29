@@ -1,0 +1,17 @@
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self' *.opera.com *.minipay.xyz; frame-ancestors 'self' *.opera.com *.minipay.xyz; connect-src 'self' *.celo.org *.opera.com *.minipay.xyz"
+        }
+      ]
+    }
+  ]
+}
